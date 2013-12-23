@@ -160,7 +160,6 @@ PRODUCT_COPY_FILES += \
 # Custom init / uevent
 PRODUCT_COPY_FILES += \
     $(LOCAL_PATH)/prebuilt/root/init.rc:root/init.rc \
-    $(LOCAL_PATH)/recovery.fstab:root/recovery.fstab \
     $(LOCAL_PATH)/prebuilt/root/init.st-ericsson.rc:root/init.st-ericsson.rc \
     $(LOCAL_PATH)/prebuilt/root/ueventd.st-ericsson.rc:root/ueventd.st-ericsson.rc
 
