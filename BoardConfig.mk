@@ -100,7 +100,8 @@ DEVICE_RESOLUTION := 480x854
 TARGET_USERIMAGES_USE_EXT4 := true
 TW_HAS_NO_RECOVERY_PARTITION := true
 TW_FLASH_FROM_STORAGE := true
-
+PRODUCT_COPY_FILES += device/sony/kumquat/recovery.fstab:recovery/root/etc/twrp.fstab
+TARGET_RECOVERY_FSTAB := device/sony/kumquat/prebuilt/root/fstab.st-ericsson
 TARGET_USE_CUSTOM_LUN_FILE_PATH := "/sys/devices/platform/musb-ux500.0/musb-hdrc/gadget/lun%d/file"
 
 # Kernel information
